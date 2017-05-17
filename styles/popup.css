@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'Digi';
+  src: url('digital-7.ttf');
+}
+
+@font-face {
+  font-family: Delicious; src: url('Timepiecerounded-tfin.otf');
+}
+
+html, body {
+  width: 100%;
+  background-color: #325476;
+  color: white;
+  font-family: 'Digi';
+  overflow:hidden;
+}
+
+body {
+  margin: 13px;
+  padding-top: 7px;
+}
+
+.Option1 {
+  background-color: white;
+  color: black;
+  visibility: visible;
+}
+
+.Option0 {
+  background-color: white;
+  color: black;
+}
+
+.Option2 {
+  background-color: white;
+  color: black;
+  visibility: visible;
+}
+
+.time {
+	/*font-family: 'Delicious';*/
+  font-family: 'Digi';
+  font-size: 52pt;
+}
+
+.date {
+  padding-top: 10px;
+  font-size: 25px;
+}
+
+button {
+  background-color: #e4685d;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 15px;
+  padding: 6px 7px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #b23e35;
+}
+
+button:hover {
+  background-color: #eb675e;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+.options {
+  background-color: #656262;
+  color: white;
+  text-shadow: 0px 0px 0px;
+}
+
+input {
+  padding: 50px;
+}
+
+.invisible {
+  display: none;
+}
+

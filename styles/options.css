@@ -1,0 +1,230 @@
+{font-family: Delicious; src: url('Timepiecerounded-tfin.otf');
+}
+
+body {
+margin: 13px;
+padding-top: 7px;
+overflow:hidden;
+}
+
+button {
+background-color: white;
+-moz-border-radius: 4px;
+-webkit-border-radius: 4px;
+border-radius: 4px;
+border: 1px solid black;
+display: inline-block;
+cursor: pointer;
+color: black;
+font-family: Arial;
+font-size: 15px;
+padding: 6px 7px;
+text-decoration: none;
+margin-top: 6px;
+}
+
+.sub:hover {
+background-color: green;
+color: white;
+}
+
+.myclass_hover:hover {
+background-color: green;
+color: white;
+}
+
+.disabled_class {
+border: 1px solid #cecece;
+color: #cecece;
+}
+
+.location {
+/*background-color: #c5bfbf;*/
+}
+
+.button_pressed {
+background-color: grey;
+color: white;
+}
+
+.invisible {
+visibility: hidden;
+}
+
+.res:hover {
+background-color: #eb675e;
+color: white;
+}
+
+button:active {
+position: relative;
+top: 1px;
+}
+
+input {
+margin: 1px;
+}
+
+.form-label {
+font-size: 20px;
+/*padding-top: 10px;*/
+padding-bottom: 20px;
+}
+
+.text-box {
+display: none;	
+}
+
+.location {
+  padding: 0px;
+  font-size: 0px;
+  width: 144px;
+  height:47px;
+
+}
+
+.location_labels {
+	position: relative;
+	top: 53px;
+	left:27px;	
+	/*margin-bottom:-40px;	*/
+	margin-top:-42px;
+	pointer-events: none;	
+	width: 100px;
+	/*display: none;*/
+}
+
+.search:hover {
+		background-color: grey;
+}
+		
+/*.Perth {
+	top: 100px;
+}
+
+.Sydney {
+	top: 150px;	
+}
+
+.Melbourne {
+	top: 194px;
+}
+
+.London {
+	top:245px;
+}
+
+
+.Rome {
+	top: 295px;
+}
+
+
+.Paris {
+	top: 340px;
+}
+
+
+.Ho_Chi_Minh {
+	top: 390px;
+}
+
+.New_York {
+	top: 437px;
+
+}
+
+.new_1 {
+	top: 488px;
+
+}
+
+
+.new_2 {
+	top: 528px;
+
+}
+
+
+
+.new3 {
+	top: 460px;
+
+}*/
+
+.remove:hover  {
+	background-color: #eb675e;
+	color: white;
+
+}
+
+.remove {
+	padding-top:  4px;
+	padding-bottom:  15px;
+	margin-top: 0px;
+	font-size: 17px;
+	border: 1px solid grey;
+}
+
+
+.gone {
+	display:none;
+}
+/*
+.location_labels {
+	display: none;
+}*/
+
+.new {
+	bottom:10px;
+}
+
+/*.move {
+	color: red;
+	position: absolute;
+	top:20px;
+}*/
+
+.location:hover {
+	background-color: grey;
+
+}
+
+
+
+/*Loading animation courtest of 'Sampson' - http://stackoverflow.com/questions/1964839/how-can-i-create-a-please-wait-loading-animation-using-jquery*/
+
+/* Start by setting display:none to make this hidden.
+   Then we position it in relation to the viewport window
+   with position:fixed. Width, height, top and left speak
+   for themselves. Background we set to 80% white with
+   our animation centered, and no-repeating */
+.modal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 ) 
+                url('icons/ajax_clock.gif') 
+                50% 50% 
+                no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;   
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .modal {
+    display: block;
+}
+
+.no_clicking {
+	pointer-events: none;	
+}

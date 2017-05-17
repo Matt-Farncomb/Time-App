@@ -1,0 +1,12 @@
+i can (maybe) access the color stored variable in options! 
+
+store the string of the entire html input elemtn in a variable. Then jquery prints each out on page load.including other vars for each value etc  .
+
+Each country needs to be stored in the list, even the beginning ones. Then when I delete them, they are removed from that list.
+
+Delete redundant lists, code and variables. There seems to be a lot.
+
+
+
+To make auto complete for countries - Have a pre made JSON file in the dir. A getJSON accesses the file and puts it into a list on page open.
+You type in one letter at a time and it seacrhes trough the list for that word as you type each letter.

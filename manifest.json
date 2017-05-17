@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "Are they awake?",
+  "version": "1.0",
+
+  "description": "Check time zones.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+ "browser_action": {
+    "default_icon": "icons/border-48.png",
+    "default_title": "Check time zones",
+    "default_popup": "popup.html"
+  },
+
+  
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": ["storage"]
+
+}
+
